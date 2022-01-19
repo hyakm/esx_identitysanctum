@@ -1,0 +1,573 @@
+body::-webkit-scrollbar {
+    display: none;
+  }
+  body {
+      display: none;
+      user-select: none;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  
+      .mediaViewInfo {
+          --web-view-name: Canvas;
+          --web-view-id: Canvas;
+          --web-scale-to-fit: true;
+          --web-scale-to-fit-type: width;
+          --web-enable-scale-up: true;
+          --web-scale-on-resize: true;
+          --web-center-vertically: true;
+          --web-enable-deep-linking: true;
+      }
+      :root {
+          --web-view-ids: Canvas;
+      }
+      * {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+          border: none;
+      }
+      #Canvas {
+          position: absolute;
+          width: 1920px;
+          height: 1080px;
+          overflow: hidden;
+          --web-view-name: Canvas;
+          --web-view-id: Canvas;
+          --web-scale-to-fit: true;
+          --web-scale-to-fit-type: width;
+          --web-enable-scale-up: true;
+          --web-scale-on-resize: true;
+          --web-center-vertically: true;
+          --web-enable-deep-linking: true;
+      }
+      #Hintergrundabteilung {
+          position: absolute;
+          width: 1428px;
+          height: 771px;
+          left: 246px;
+          top: 181px;
+          overflow: visible;
+      }
+      #Rechtslauf {
+          fill: rgba(0,26,49,1);
+          stroke: rgba(0,144,255,1);
+          stroke-width: 1px;
+          stroke-linejoin: miter;
+          stroke-linecap: butt;
+          stroke-miterlimit: 4;
+          shape-rendering: auto;
+      }
+      .Rechtslauf {
+          position: absolute;
+          overflow: visible;
+          width: 1428px;
+          height: 771px;
+          left: 0px;
+          top: 0px;
+      }
+      #Linksverlauf {
+          border-radius: 52px 0px 0px 52px;
+          background-color: rgba(0,38,71,1);
+          position: absolute;
+          overflow: visible;
+          width: 714px;
+          height: 771px;
+          left: 0px;
+          top: 0px;
+      }
+      #velocitydesigns_2 {
+          fill: transparent;
+          stroke: rgba(0,144,255,1);
+          stroke-width: 1px;
+          stroke-linejoin: miter;
+          stroke-linecap: butt;
+          stroke-miterlimit: 4;
+          shape-rendering: auto;
+      }
+      .velocitydesigns_2 {
+          overflow: visible;
+          position: absolute;
+          width: 1px;
+          height: 770.707px;
+          left: 714px;
+          top: 0px;
+          transform: matrix(1,0,0,1,0,0);
+      }
+      #velocitydesigns_1 {
+          fill: transparent;
+          stroke: rgba(0,144,255,1);
+          stroke-width: 1px;
+          stroke-linejoin: miter;
+          stroke-linecap: butt;
+          stroke-miterlimit: 4;
+          shape-rendering: auto;
+      }
+      .velocitydesigns_1 {
+          overflow: visible;
+          position: absolute;
+          width: 1px;
+          height: 770.707px;
+          left: 714px;
+          top: 0px;
+          transform: matrix(1,0,0,1,0,0);
+      }
+      #skin {
+          position: absolute;
+          width: 517px;
+          height: 746px;
+          left: 424px;
+          top: 25px;
+          overflow: visible;
+      }
+      #Hintergrundlinie {
+          fill: transparent;
+          stroke: rgba(0,144,255,1);
+          stroke-width: 1px;
+          stroke-linejoin: miter;
+          stroke-linecap: butt;
+          stroke-miterlimit: 4;
+          shape-rendering: auto;
+      }
+      .Hintergrundlinie {
+          position: absolute;
+          overflow: visible;
+          width: 1428px;
+          height: 771px;
+          left: 0px;
+          top: 0px;
+      }
+      #Komponente {
+          position: absolute;
+          width: 1201px;
+          height: 456px;
+          left: 378px;
+          top: 344px;
+          overflow: visible;
+      }
+      #velocitydesigns {
+          fill: rgba(0,22,42,1);
+          stroke: rgba(0,144,255,1);
+          stroke-width: 0.30000001192092896px;
+          stroke-linejoin: miter;
+          stroke-linecap: butt;
+          stroke-miterlimit: 4;
+          shape-rendering: auto;
+      }
+      .velocitydesigns {
+          position: absolute;
+          overflow: visible;
+          width: 344px;
+          height: 43px;
+          left: 857px;
+          top: 186px;
+      }
+      #velocitydesigns_p {
+          fill: rgba(0,22,42,1);
+          stroke: rgba(0,144,255,1);
+          stroke-width: 0.30000001192092896px;
+          stroke-linejoin: miter;
+          stroke-linecap: butt;
+          stroke-miterlimit: 4;
+          shape-rendering: auto;
+      }
+      .velocitydesigns_p {
+          position: absolute;
+          overflow: visible;
+          width: 344px;
+          height: 43px;
+          left: 857px;
+          top: 124px;
+      }
+      #velocitydesigns_q {
+          fill: rgba(0,22,42,1);
+          stroke: rgba(0,144,255,1);
+          stroke-width: 0.30000001192092896px;
+          stroke-linejoin: miter;
+          stroke-linecap: butt;
+          stroke-miterlimit: 4;
+          shape-rendering: auto;
+      }
+      .velocitydesigns_q {
+          position: absolute;
+          overflow: visible;
+          width: 344px;
+          height: 43px;
+          left: 857px;
+          top: 62px;
+      }
+      #velocitydesigns_r {
+          fill: rgba(0,22,42,1);
+          stroke: rgba(0,144,255,1);
+          stroke-width: 0.30000001192092896px;
+          stroke-linejoin: miter;
+          stroke-linecap: butt;
+          stroke-miterlimit: 4;
+          shape-rendering: auto;
+      }
+      .velocitydesigns_r {
+          position: absolute;
+          overflow: visible;
+          width: 344px;
+          height: 43px;
+          left: 857px;
+          top: 0px;
+      }
+      #velocitydesigns_s {
+          fill: rgba(0,44,83,1);
+          stroke: rgba(0,144,255,1);
+          stroke-width: 1px;
+          stroke-linejoin: miter;
+          stroke-linecap: butt;
+          stroke-miterlimit: 4;
+          shape-rendering: auto;
+      }
+      .velocitydesigns_s {
+          position: absolute;
+          overflow: visible;
+          width: 344px;
+          height: 55px;
+          left: 0px;
+          top: 322px;
+      }
+      #velocitydesigns_t {
+          fill: rgba(0,44,83,1);
+          stroke: rgba(0,144,255,1);
+          stroke-width: 1px;
+          stroke-linejoin: miter;
+          stroke-linecap: butt;
+          stroke-miterlimit: 4;
+          shape-rendering: auto;
+      }
+      .velocitydesigns_t {
+          position: absolute;
+          overflow: visible;
+          width: 344px;
+          height: 55px;
+          left: 0px;
+          top: 401px;
+      }
+      #velocitydesigns_u {
+          fill: rgba(0,44,83,1);
+          stroke: rgba(0,144,255,1);
+          stroke-width: 1px;
+          stroke-linejoin: miter;
+          stroke-linecap: butt;
+          stroke-miterlimit: 4;
+          shape-rendering: auto;
+      }
+      .velocitydesigns_u {
+          position: absolute;
+          overflow: visible;
+          width: 32px;
+          height: 32px;
+          left: 17px;
+          top: 413px;
+      }
+      #velocitydesigns_v {
+          fill: rgba(0,44,83,1);
+          stroke: rgba(0,144,255,1);
+          stroke-width: 1px;
+          stroke-linejoin: miter;
+          stroke-linecap: butt;
+          stroke-miterlimit: 4;
+          shape-rendering: auto;
+      }
+      .velocitydesigns_v {
+          position: absolute;
+          overflow: visible;
+          width: 32px;
+          height: 32px;
+          left: 17px;
+          top: 334px;
+      }
+      #discordicon {
+          position: absolute;
+          width: 21px;
+          height: 15px;
+          left: 23px;
+          top: 421px;
+          overflow: visible;
+      }
+      #settingicon {
+          position: absolute;
+          width: 20px;
+          height: 20px;
+          left: 23px;
+          top: 340px;
+          overflow: visible;
+      }
+      #Einreisebutton {
+          position: absolute;
+          width: 344px;
+          height: 55px;
+          left: 1235px;
+          top: 733px;
+          overflow: visible;
+      }
+      .btn {
+          text-align:center;
+          font-family: Segoe UI;
+          font-style: normal;
+          font-weight: bold;
+          border: none;
+          font-size: 13px;
+          color: rgb(224, 224, 224);
+          background-color: rgba(0,44,83,1);
+          border: rgba(0,144,255,1) 1px solid;
+          border-radius: 10px;
+          position: absolute;
+          overflow: visible;
+          width: 344px;
+          height: 55px;
+          left: 0px;
+          top: 0px;
+         
+      }
+      .btn:hover {
+  
+  transform:scale(1.1);
+  
+  
+      }
+  
+  
+      #EINREISEN {
+          left: 126px;
+          top: 15px;
+          position: absolute;
+          overflow: visible;
+          width: 93px;
+          white-space: nowrap;
+          text-align: left;
+          font-family: Segoe UI;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 19px;
+          color: rgba(255,255,255,1);
+      }
+      #Infoabteilung {
+          position: absolute;
+          width: 220px;
+          height: 101px;
+          left: 466px;
+          top: 683px;
+          overflow: visible;
+      }
+      #Velocity-Servicescom {
+          left: 0px;
+          top: 0px;
+          position: absolute;
+          overflow: visible;
+          width: 164px;
+          white-space: nowrap;
+          text-align: left;
+          font-family: Segoe UI;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 17px;
+          color: rgba(255,245,245,1);
+      }
+      #DSCGGVELOCITY-SERVICES {
+          left: 0px;
+          top: 79px;
+          position: absolute;
+          overflow: visible;
+          width: 221px;
+          white-space: nowrap;
+          text-align: left;
+          font-family: Segoe UI;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 17px;
+          color: rgba(255,245,245,1);
+      }
+      #Logoabteilung {
+          position: absolute;
+          width: 1127px;
+          height: 433px;
+          left: 437px;
+          top: 129px;
+          overflow: visible;
+      }
+      #Logo {
+          position: absolute;
+          width: 225px;
+          height: 225px;
+          left: 0px;
+          top: 125px;
+          overflow: visible;
+      }
+      #Logotext {
+          position: absolute;
+          width: 314px;
+          height: 277px;
+          left: 813px;
+          top: 0px;
+          overflow: visible;
+      }
+      #Inputabteilung {
+          position: absolute;
+          width: 119px;
+          height: 206px;
+          left: 820px;
+          top: 227px;
+          overflow: visible;
+      }
+      #height {
+          background-color:transparent;
+          border: 0;
+          outline: 0;
+          left: 0px;
+          top: 186px;
+          position: absolute;
+          overflow: visible;
+          width: 109px;
+          white-space: nowrap;
+          text-align: left;
+          font-family: Segoe UI;
+          font-style: normal;
+          font-weight: lighter;
+          font-size: 15px;
+          color: rgba(178,178,178,1);
+      }
+      #dateofbirth {
+          background-color:transparent;
+          border: 0;
+          outline: 0;
+          left: 0px;
+          top: 124px;
+          position: absolute;
+          overflow: visible;
+          width: 120px;
+          white-space: nowrap;
+          text-align: left;
+          font-family: Segoe UI;
+          font-style: normal;
+          font-weight: lighter;
+          font-size: 15px;
+          color: rgba(178,178,178,1);
+      }
+      #lastname {
+          background-color:transparent;
+          border: 0;
+          outline: 0;
+          left: 0px;
+          top: 62px;
+          position: absolute;
+          overflow: visible;
+          width: 91px;
+          white-space: nowrap;
+          text-align: left;
+          font-family: Segoe UI;
+          font-style: normal;
+          font-weight: lighter;
+          font-size: 15px;
+          color: rgba(178,178,178,1);
+      }
+      #firstname {
+          background-color:transparent;
+          border: 0;
+          outline: 0;
+          left: 0px;
+          top: 0px;
+          position: absolute;
+          overflow: visible;
+          width: 80px;
+          white-space: nowrap;
+          text-align: left;
+          font-family: Segoe UI;
+          font-style: normal;
+          font-weight: lighter;
+          font-size: 15px;
+          color: rgba(178,178,178,1);
+      }
+  
+  
+  
+  
+  
+      #Abteilungcheckmark {
+          position: absolute;
+          width: 180px;
+          height: 17px;
+          left: 1300px;
+          top: 600px;
+          overflow: visible;
+      }
+  
+  
+      .radio-container {
+    position: relative;
+    padding-left: 50px;
+    font-family: Poppins;
+    font-size: 30px;
+    width: 50px;
+    cursor: pointer;
+    color: #666;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  .radio-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+  .radio-container input:checked ~ .checkmark {
+    background-color: #0a7bfd;
+  }
+  
+  .radio-container input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  .radio-container .checkmark:after {
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 28px;
+    height: 28px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    background: #0a7bfd;
+  }
+  
+  .checkmark {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    left: 0;
+    height: 28px;
+    width: 28px;
+    background-color: #141414;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    -webkit-box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.08);
+    -moz-box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.08);
+    box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.08);
+  }
+  
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  
+  
+  
+  
